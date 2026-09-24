@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS despesas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    descricao TEXT NOT NULL,
+    valor REAL NOT NULL,
+    data DATE NOT NULL
+);
